@@ -647,28 +647,13 @@ footer .social-links {
     margin-bottom: 0;
   }
 
-  /*=== ABOUT =================================*/
-  #contact .wrapper {
-    grid-template-columns: 1fr 57.5rem;
-    grid-template-areas: 'A B';
-  }
-
-  #contact .col-a {
-    align-self: center;
-  }
-
-  #contact h2 {
-    width: 40.4rem;
-  }
-
   /*=== FOOTER =================================*/
   footer {
     padding-block: 8rem;
   }
 
   footer .wrapper {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 'A B';
+    display: flex;
   }
 
   footer .col-a {
@@ -676,8 +661,10 @@ footer .social-links {
   }
 
   footer .col-b {
+    display: flex;
     align-self: center;
-    justify-self: flex-end;
+    justify-content: center;
+    margin-left: 50rem;
   }
 
   footer p {
