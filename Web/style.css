@@ -337,7 +337,7 @@ body.menu-expanded button path {
 
 #services .card {
   width: 100%;
-  
+
   padding: 2rem;
   justify-content: center;
   align-items: center;
@@ -630,7 +630,6 @@ footer .social-links {
     display: flex;
     width: 20%;
     flex-grow: 1;
-
   }
 
   /*=== ABOUT =================================*/
