@@ -182,6 +182,7 @@ nav .wrapper {
 
 nav.scroll {
   background-color: var(--primary-color);
+  transition: 499ms;
 }
 
 nav button {
@@ -621,12 +622,10 @@ footer .social-links {
   /*=== PROJECTS =================================*/
   #projects .wrapper {
     width: 100%;
-    
   }
 
   #projects img {
     width: 100%;
-    
   }
 
   /*=== BUTTONS =================================*/
